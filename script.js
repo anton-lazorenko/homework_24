@@ -8,7 +8,7 @@ function convertMinutes(amountMinutes) {
 function howManyMinutes() {
     let request;
     while (isNaN(request) || +request < 0 || +request > 1440 || request === null){
-        request = prompt('Введите минуты от 0 до 2000');
+        request = prompt('Введите минуты от 0 до 1440');
     }
     return request;
 }
